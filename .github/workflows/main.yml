@@ -4,10 +4,10 @@ jobs:
   eslint:
     runs-on: ubuntu-latest
     steps:
+      node-version: 14
       - uses: actions/checkout@v1
       - uses: stefanoeb/eslint-action@1.0.2
 
       - name: Instala o node com a versão
         uses: actions/setup-node@v1
-        with:
-          node-version: 14
+          
