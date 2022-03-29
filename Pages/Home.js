@@ -1,28 +1,19 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import { Link } from 'react-router-dom';
+import image_vw_fusca from '../images/image_vw_fusca.png';
 
-function Contact() {
-    return (
-      <main>
-        <Header />
-        <section className='links-header'>
-        <Link to='/' className='links-header'>
-          <h4>Quem sou eu</h4>
-        </Link>
-        <Link to='/knowledge' className='links-header'>
-          <h4>Conhecimentos</h4>
-        </Link>
-        <Link to='/projects' className='links-header'>
-          <h4>Projetos</h4>
-        </Link>
-        <Link to='/contact' className='links-header'>
-          <h4>Contato</h4>
-        </Link>
+function Home() {
+  return (
+    <main>
+      <Header />
+      <section className='home'>
+        <p>A aplicação possibilita interação com o banco de dados, permitindo: </p>
+        <p>Exebição, criação, edição e remoção de modelos de veículos</p>
+        <img alt='car vw fusca' src={ image_vw_fusca }/>
       </section>
-        <Footer />
-      </ main>
-    );
-  }
+      <Footer />
+    </ main>
+  );
+}
   
-  export default Contact;
+export default Home;
