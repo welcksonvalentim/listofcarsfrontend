@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
 
-const API_ENDPOINT = 'URL_API_BACKEND_HEROKU/users';
+const API_ENDPOINT = 'https://listofcarsfrontend.herokuapp.com/users';
 
 function Cars() {
   const [data, setData] = useState([]);
