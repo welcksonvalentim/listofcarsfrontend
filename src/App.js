@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import ProfileProvider from './Context/ProfileProvider';
+import Provider from './Context/Provider';
 import Profile from './Pages/Profile';
 import Contact from './Pages/Contatc';
 import Knowledge from './Pages/Knowledge';
@@ -10,14 +10,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <ProfileProvider>
+    <Provider>
       <Switch>
         <Route exact path='/' component={ Profile } />
         <Route exact path='/contact' component={ Contact } />
         <Route exact path='/knowledge' component={ Knowledge } />
         <Route exact path='/projects' component={ Projects } />
       </Switch>
-    </ProfileProvider>
+    </Provider>
   );
 }
 
