@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useEffect, useState } from 'react';
 
 const API_ENDPOINT = 'https://listofcarsfrontend.herokuapp.com/users';

@@ -1,10 +1,9 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import Switch from 'react-dom';
+import { Route } from 'react-router-dom';
 import Provider from './Context/Provider';
 import Home from './Pages/Home';
 import Cars from './Pages/Cars';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
