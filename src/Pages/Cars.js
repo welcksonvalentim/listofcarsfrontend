@@ -40,27 +40,19 @@ function Cars() {
   }, [files])
 })
 
-  if (loading) return <h1>loading</h1>;
+  if (loading) return <h1>loading...</h1>;
   return (
-    <h4>{console.log(files[0])}</h4>
-  /* <table>
-      <tr>  
-        {Object.keys(files[0]).map(
-          (key) => (<th key={ Math.random() }>{key}</th>),
-        )}
-      </tr>
-      <tbody>
-        {files.map((rowInfo) => (
-          <tr key={ Math.random() }>
-            {
-              Object.values(rowInfo).map(
-                (cellInfo) => (<td key={ Math.random() }>{cellInfo}</td>),
-              )
-            }
-          </tr>
-        ))}
-      </tbody>
-    </table> */
+    <main>
+      <h4>{console.log(files[0])}</h4>
+      {files[0].map((car) => 
+        <section>
+          <img alt={car.model} src={car.image} />
+          <h4>{car.automaker}</h4>
+          <p>{car.model}</p>
+          <p>{car.version}</p>
+        </section>
+      )}
+    </main>
   );
 }
 
