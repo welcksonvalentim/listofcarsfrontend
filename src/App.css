@@ -34,6 +34,7 @@
   .Cars {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .SectionCars {
@@ -57,6 +58,31 @@
     align-items: center;
     justify-content: space-between;
     margin: 5px 2px;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #111111;
+    width: 100vw;
+    height: 4vh;
+    border-radius:5px;
+  }
+
+  .footer h4 {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+  }
+
+  .footer img {
+    width: 7vw;
   }
 }
 @media (min-width: 391px) and (max-width: 2000px) {
