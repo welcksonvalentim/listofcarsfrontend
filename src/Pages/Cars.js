@@ -21,7 +21,7 @@ function Cars() {
   useEffect(() => {
     const busca = () => {
     const resultado =  axios.get(API_ENDPOINT)
-        .then(resp => resp.json());
+        .then(resp => resp.data);
     return resultado;
 }
   async function getJogadores(){
@@ -34,15 +34,15 @@ function Cars() {
     }
   }
   getJogadores().then(async (fcs) => {
-   files.push(fcs)
+    files.push(fcs);
    if(fcs.message) return alert('Jogador já existe!')
    setLoading(false)
   }, [files])
 })
-console.log(files);
+
   if (loading) return <h1>loading</h1>;
   return (
-    <h4>{files}</h4>
+    <h4>{console.log(files[0])}</h4>
   /* <table>
       <tr>  
         {Object.keys(files[0]).map(
