@@ -30,9 +30,9 @@ function Cars() {
 
   if (loading) return <h1>loading...</h1>;
   return (
-    <main className='Cars'>
+    <main className='cars'>
       {data[0].map((car) => 
-        <section className='SectionCars'>
+        <section className='sectionCars'>
           <img alt={car.model} src={car.image} />
           <div>
             <h4>{car.automaker}</h4>

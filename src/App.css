@@ -32,19 +32,19 @@
     width: 100vw;
   }
 
-  .Cars {
+  .cars {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .SectionCars {
+  .sectionCars {
     margin-left: 15px;
     align-items: center;
     justify-content: center;
   }
 
-  .SectionCars img {
+  .sectionCars img {
     width: 35vw;
     height: 25vw;
   }
@@ -79,7 +79,6 @@
     font-size: 0.75em;
     font-weight: 600;
     font-family: sans-serif;
-    
   }
 
   .footer img {
@@ -118,7 +117,7 @@
     width: 100vw;
   }
 
-  .Cars {
+  .cars {
     overflow-y: scroll;
     display: flex;
     justify-content: center;
@@ -143,7 +142,7 @@
   border-radius: 10px;
 }
 
-  .SectionCars {
+  .sectionCars {
     margin: 5px 15px;
     align-items: center;
     justify-content: center;
@@ -151,7 +150,7 @@
     border-radius: 8px;
   }
 
-  .SectionCars img {
+  .sectionCars img {
     width: 35vw;
     height: 23vw;
     border-radius: 5px;
@@ -162,7 +161,7 @@
     font-size: 1.2em;
   }
 
-  .SectionCars div {
+  .sectionCars div {
     display: flex;
     align-items: center;
     justify-content: space-between;
