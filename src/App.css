@@ -40,8 +40,15 @@
 
   .sectionCars {
     margin-left: 15px;
+    margin-bottom: 5px;
     align-items: center;
     justify-content: center;
+    border: 1px solid #111111;
+    border-radius:5px;
+  }
+
+  .sectionCars a {
+    text-decoration: none;
   }
 
   .sectionCars img {
@@ -49,16 +56,17 @@
     height: 25vw;
   }
 
-  .SectionCars h4 {
+  .sectionCars h4 {
     font-weight: 600;
     font-size: 8px;
   }
 
-  .SectionCars div {
+  .sectionCars div {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 5px 2px;
+    color: #111111;
   }
 
   .footer {
@@ -148,6 +156,15 @@
     justify-content: center;
     border: 1px solid #111111;
     border-radius: 8px;
+  }
+
+  .sectionCars:hover {
+    border: 2px solid #414040;
+    box-shadow: 10px 5px 5px;
+  }
+  
+  .sectionCars a {
+    text-decoration: none;
   }
 
   .sectionCars img {
