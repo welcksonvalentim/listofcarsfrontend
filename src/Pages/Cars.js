@@ -33,12 +33,14 @@ function Cars() {
     <main className='cars'>
       {data[0].map((car) => 
         <section className='sectionCars'>
+          <a href={car.info} target="_blank" rel="noreferrer noopener">
           <img alt={car.model} src={car.image} />
           <div>
             <h4>{car.automaker}</h4>
             <h4>{`MOD.: ${car.model}`}</h4>
             <h4>{`VER.: ${car.version}`}</h4>
           </div>
+      </a>
         </section>
       )}
     </main>
