@@ -1,14 +1,13 @@
 import Header from '../Components/Header';
-import image_vw_fusca from '../images/image_vw_fusca.png';
 
 function Home() {
   return (
     <main>
       <Header />
       <section className='home'>
-        <p>A aplicação possibilita interação com o banco de dados, permitindo: </p>
-        <p>Exebição, criação, edição e remoção de modelos de veículos</p>
-        <img alt='car vw fusca' src={ image_vw_fusca }/>
+        <h3>Descrição Aplicação</h3>
+        <p>A aplicação possibilita interação com o banco de dados, permitindo: Exibição de Marcas, modelos e versões de veículos.</p>
+        <p>Ao clicar sobre o card será redirecionado para página especializada, com informações técnicas do veículo.</p>
       </section>
     </ main>
   );

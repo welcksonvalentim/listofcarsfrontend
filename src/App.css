@@ -1,1 +1,223 @@
+@media (max-width: 391px) {
+  .header {
+    background-color: #111111;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 6vh;
+    border-radius:5px;
+    margin-right: 10px;
+  }
 
+  .header h1 {
+    color: #FFFF;
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .header img {
+    display: block;
+    width: 20vw;
+    height: 10vh;
+    border-radius: 10px;
+  }
+
+  .home {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100vw;
+  }
+
+  .cars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .sectionCars {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111111;
+    border-radius:5px;
+  }
+
+  .sectionCars a {
+    text-decoration: none;
+  }
+
+  .sectionCars img {
+    width: 35vw;
+    height: 25vw;
+  }
+
+  .sectionCars h4 {
+    font-weight: 600;
+    font-size: 8px;
+  }
+
+  .sectionCars div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 2px;
+    color: #111111;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #111111;
+    width: 100vw;
+    height: 4vh;
+    border-radius:5px;
+  }
+
+  .footer h4 {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .footer img {
+    width: 7vw;
+  }
+}
+@media (min-width: 391px) and (max-width: 2000px) {
+  .header {
+    background-color: #111111;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    width: 100vw;
+    height: 8vh;
+    border-radius:5px;
+  }
+
+  .header h1 {
+    color: #FFFF;
+    font-size: 2em;
+    margin-left: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+  }
+
+  .header img {
+    display: block;
+    width: 8vw;
+    border-radius: 10px;
+  }
+
+  .home {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 100vw;
+  }
+
+  .cars {
+    overflow-y: scroll;
+    display: flex;
+    justify-content: center;
+    scroll-behavior: smooth;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 85vw;
+    background-color: #FFFF;
+  }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px rgb(36, 36, 36);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(58, 47, 47);
+  border-radius: 10px;
+}
+
+  .sectionCars {
+    margin: 5px 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #111111;
+    border-radius: 8px;
+  }
+
+  .sectionCars:hover {
+    border: 2px solid #414040;
+    box-shadow: 10px 5px 5px;
+  }
+  
+  .sectionCars a {
+    text-decoration: none;
+  }
+
+  .sectionCars img {
+    width: 35vw;
+    height: 23vw;
+    border-radius: 5px;
+  }
+
+  .SectionCars h4 {
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+
+  .sectionCars div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 20px;
+    color: #111111;
+  }
+
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #111111;
+    width: 100vw;
+    height: 5vh;
+    border-radius:5px;
+  }
+
+  .footer h4 {
+    color: #FFFF;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    font-weight: 600;
+    font-family: sans-serif;
+    
+  }
+
+  .footer img {
+    width: 5vw;
+    animation: go-back 5s infinite alternate;
+  }
+
+  @keyframes go-back {
+    0% {
+        transform: translateX(300px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+  }
+}
