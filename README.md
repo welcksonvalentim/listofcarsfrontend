@@ -4,7 +4,7 @@ Este projeto renderiza lista de veículos, armazenados em banco de dado remoto e
 
 ## Funcionalidades da Aplicação
 
-Com esta aplicação podemos vizualizar lista de veículos, com descrição de marca, modelo e versão.
+Com esta aplicação podemos visualizar lista de veículos, com descrição de marca, modelo e versão.
 Ao clicar sobre o card abre-se uma nova página, do site WebMotors, com as especificações técnicas de cada modelo.
 Todas as informações utilizadas estão armazenadas no banco de dados e passíveis de manipulação.
 
@@ -12,7 +12,7 @@ Todas as informações utilizadas estão armazenadas no banco de dados e passív
 
 Aplicação desenvolvida com `React.js`, com gerenciamento de estado por meio de `Hooks`.
 Aplicação recebe e trata promisses proveniente do retorno de informações do projeto `Back End`.
-Estilização da página desenvolvida para mobile first e responsibilidade ao tamanho da tela, 
+Estilização da página desenvolvida para mobile first e responsividade ao tamanho da tela, 
 desenvolvida em `Bootstrap`.
 
 
