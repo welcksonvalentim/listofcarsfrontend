@@ -28,7 +28,7 @@ Realizado deploy da aplicação na plataforma Heroku e disponível em:
 
 1. Clone o repositório, com o comando:
     *`git clone git@github.com:welcksonvalentim/listofcarsfrontend.git`
-`
+
 2. Entre na pasta do repositório que você acabou de clonar:
     * `cd listofcarsfrontend`
 
