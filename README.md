@@ -18,12 +18,11 @@ desenvolvida em `Bootstrap`.
 
 ### Tecnologias Utilizadas
 
-Realizado deploy da aplicação e disponível em:
-XXXXXXXXXXXX
+Realizado deploy da aplicação na plataforma Heroku e disponível em:
+https://listofcarsfrontend.herokuapp.com/cars
 
 ### Ilustração da Aplicação em funcionamento
-
-Gifffffffffffffffffffff
+<img alt="Gif funcionamento da aplicação" width=400px src="src/images/fullStackGif.gif" />
 
 ### Para rodar a aplicação localmente
 1. Clone o repositório, com o comando:
