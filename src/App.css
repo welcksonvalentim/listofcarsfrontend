@@ -156,7 +156,7 @@
     justify-content: center;
     border: 1px solid #111111;
     border-radius: 8px;
-  }
+      }
 
   .sectionCars:hover {
     border: 2px solid #414040;
@@ -173,9 +173,9 @@
     border-radius: 5px;
   }
 
-  .SectionCars h4 {
+  .sectionCars h4 {
     font-weight: 600;
-    font-size: 1.2em;
+    font-size: 1.5vw;
   }
 
   .sectionCars div {
